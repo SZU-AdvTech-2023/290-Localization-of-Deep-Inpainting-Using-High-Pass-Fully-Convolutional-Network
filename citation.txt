@@ -1,0 +1,7 @@
+@inproceedings{REPO290,
+    author = "Li, Haodong and Huang, Jiwu",
+    booktitle = "proceedings of the IEEE/CVF international conference on computer vision",
+    pages = "8301--8310",
+    title = "{Localization of Deep Inpainting Using High-Pass Fully Convolutional Network}",
+    year = "2019"
+}
