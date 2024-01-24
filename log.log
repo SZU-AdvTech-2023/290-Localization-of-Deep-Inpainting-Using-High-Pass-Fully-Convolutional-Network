@@ -1,0 +1,48 @@
+hp_fcn1.py
+--------------FLAGS--------------
+batch_size: 1
+data_dir: ./QF96_train/jpg
+epoch: 1
+filter_learnable: True
+filter_type: d1
+focal_gamma: 2.0
+img_aug: False
+img_size: None
+keep_ckpt: 1
+learning_rate: 0.0001
+logdir: ./log
+loss: focal
+lr_decay: 0.5
+lr_decay_freq: 1.0
+mode: train
+optimizer: Adam
+reset_global_step: False
+restore: None
+shuffle_seed: None
+subset: None
+train_ratio: 0.7
+valid_time: 1
+verbose_time: 10
+visout_dir: .isual
+weight_decay: 1e-05
+---------------------------------
+Seed=435693588430
+epoch: 0 step: 3500 loss: 0.118923 ACC: 0.931706 Recall: 0.399675 Precision: 0.604549
+validation loss: 0.103567 ACC: 0.947621 Recall: 0.843306 Prec: 0.769259 TNR: 0.959211 F1: 0.779458 MCC: 0.767830 IoU: 0.664282 best_metric: 0.779458
+epoch: 0 step: 7000 loss: 0.082012 ACC: 0.975074 Recall: 0.850698 Precision: 0.894259
+validation loss: 0.078110 ACC: 0.972861 Recall: 0.775438 Prec: 0.948625 TNR: 0.994780 F1: 0.830308 MCC: 0.832521 IoU: 0.744801 best_metric: 0.830308
+epoch: 0 step: 10500 loss: 0.063690 ACC: 0.983916 Recall: 0.907869 Precision: 0.930377
+validation loss: 0.074981 ACC: 0.967876 Recall: 0.706845 Prec: 0.962963 TNR: 0.996843 F1: 0.781730 MCC: 0.791671 IoU: 0.690142 best_metric: 0.830308
+epoch: 0 step: 14000 loss: 0.051287 ACC: 0.989317 Recall: 0.938709 Precision: 0.953756
+validation loss: 0.061762 ACC: 0.977055 Recall: 0.785342 Prec: 0.980049 TNR: 0.998341 F1: 0.846958 MCC: 0.853157 IoU: 0.775433 best_metric: 0.846958
+epoch: 0 step: 17500 loss: 0.042468 ACC: 0.992574 Recall: 0.958175 Precision: 0.967496
+validation loss: 0.052793 ACC: 0.976227 Recall: 0.920585 Prec: 0.901107 TNR: 0.982413 F1: 0.895156 MCC: 0.891767 IoU: 0.833632 best_metric: 0.895156
+epoch: 0 step: 21000 loss: 0.036414 ACC: 0.993783 Recall: 0.965421 Precision: 0.972576
+validation loss: 0.039455 ACC: 0.987976 Recall: 0.899649 Prec: 0.981259 TNR: 0.997782 F1: 0.929712 MCC: 0.929100 IoU: 0.885378 best_metric: 0.929712
+epoch: 0 step: 24500 loss: 0.031749 ACC: 0.994738 Recall: 0.970637 Precision: 0.976764
+validation loss: 0.042125 ACC: 0.979230 Recall: 0.909266 Prec: 0.928411 TNR: 0.987005 F1: 0.903990 MCC: 0.901637 IoU: 0.845712 best_metric: 0.929712
+epoch: 0 step: 28000 loss: 0.028327 ACC: 0.995299 Recall: 0.973384 Precision: 0.979466
+validation loss: 0.030616 ACC: 0.990623 Recall: 0.923586 Prec: 0.981685 TNR: 0.998057 F1: 0.945077 MCC: 0.944092 IoU: 0.908754 best_metric: 0.945077
+epoch: 0 step: 31500 loss: 0.025068 ACC: 0.995994 Recall: 0.978090 Precision: 0.982087
+validation loss: 0.028723 ACC: 0.989311 Recall: 0.964765 Prec: 0.947852 TNR: 0.992038 F1: 0.951333 MCC: 0.948568 IoU: 0.916260 best_metric: 0.951333
+epoch: 1 step: 35000 loss: 0.022806 ACC: 0.996170 Recall: 0.979025 Precision: 0.982838

@@ -1,0 +1,30 @@
+hp_fcn.py
+--------------FLAGS--------------
+batch_size: 1
+data_dir: ./QF96_train/jpg
+epoch: 1
+filter_learnable: True
+filter_type: srm
+focal_gamma: 2.0
+img_aug: False
+img_size: None
+keep_ckpt: 1
+learning_rate: 0.0001
+logdir: ./log2
+loss: focal
+lr_decay: 0.5
+lr_decay_freq: 1.0
+mode: train
+optimizer: Adam
+reset_global_step: False
+restore: None
+shuffle_seed: None
+subset: None
+train_ratio: 0.7
+valid_time: 1
+verbose_time: 10
+visout_dir: .isual
+weight_decay: 1e-05
+---------------------------------
+Seed=435630145318
+validation loss: 10.968117 ACC: 0.894292 Recall: 0.001644 Prec: 0.018656 TNR: 0.993271 F1: 0.002896 MCC: -0.019041 IoU: 0.001467 best_metric: 0.002896
